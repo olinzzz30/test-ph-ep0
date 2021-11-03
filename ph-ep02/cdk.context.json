@@ -1,0 +1,70 @@
+{
+  "vpc-provider:account=340957575974:filter.isDefault=true:region=us-west-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-f76c208f",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-040af14e",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-west-2a",
+            "routeTableId": "rtb-0498b67f"
+          },
+          {
+            "subnetId": "subnet-0cae7774",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-west-2b",
+            "routeTableId": "rtb-0498b67f"
+          },
+          {
+            "subnetId": "subnet-015df55c",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-west-2c",
+            "routeTableId": "rtb-0498b67f"
+          },
+          {
+            "subnetId": "subnet-0ecaea25",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "us-west-2d",
+            "routeTableId": "rtb-0498b67f"
+          }
+        ]
+      }
+    ]
+  },
+  "vpc-provider:account=340957575974:filter.isDefault=true:region=ap-northeast-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-839a82e4",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-d5b91c9d",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "ap-northeast-1a",
+            "routeTableId": "rtb-70c3b216"
+          },
+          {
+            "subnetId": "subnet-9e4a5dc5",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "ap-northeast-1c",
+            "routeTableId": "rtb-70c3b216"
+          },
+          {
+            "subnetId": "subnet-838d21a8",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "ap-northeast-1d",
+            "routeTableId": "rtb-70c3b216"
+          }
+        ]
+      }
+    ]
+  }
+}
